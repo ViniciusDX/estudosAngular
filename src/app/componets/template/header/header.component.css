@@ -1,0 +1,21 @@
+.heard {
+  display: flex;
+  align-items: center;
+}
+
+.heard a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.heard .logo {
+  max-height: 100px;
+}
+
+.heard .title-group {
+  padding-left: 5px;
+}
+.heard .title-group i {
+  padding-right: 2px;
+}
