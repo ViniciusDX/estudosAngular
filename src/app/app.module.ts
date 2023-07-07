@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { HeaderComponent } from "./componets/template/header/header.component";
 
 import { MatToolbarModule } from "@angular/material/toolbar";
+import { FooterComponent } from "./componets/template/footer/footer.component";
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
